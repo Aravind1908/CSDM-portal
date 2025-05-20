@@ -148,10 +148,12 @@ function Sidebar() {
               className="ml-6 flex flex-col gap-2 mt-2 overflow-hidden"
             >
               <NavLink to="/test/schedule" className={getNavLinkClass}>
-                <CalendarCheck size={18} /> Schedule Test
+                <CalendarCheck size={18} />
+                Test 1
               </NavLink>
-              <NavLink to="/test/results" className={getNavLinkClass}>
-                <FileBarChart size={18} /> View Results
+              <NavLink to="/test/schedule" className={getNavLinkClass}>
+                <CalendarCheck size={18} />
+                Test 2
               </NavLink>
             </motion.div>
           )}
